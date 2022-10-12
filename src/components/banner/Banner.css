@@ -1,0 +1,33 @@
+.bannerContainer {
+    width: 100%;
+    height: 20vh;
+}
+
+.bannerContainer img {
+    width: 100%;
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.bannerText h2, h3, h5 {
+    margin: 20px;
+    color: #ffffffbe;
+    font-family: Helvetica, sans-serif;
+}
+
+.bannerText h2 {
+    font-size: 56px;
+}
+
+.bannerText h3 {
+    font-size: 36px;
+}
+
+.bannerText h5 {
+    font-size: 26px;
+}

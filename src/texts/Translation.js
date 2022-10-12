@@ -14,9 +14,8 @@ i18n
             "About me" : "ABOUT ME",
             "Services" : "SERVICES",
             "Contact" : "CONTACT",
-            
-            "salutation" : "I am Manuel.",
-            
+            "BannerTitle" : 'Certified Translator',
+            "BannerSubtitle" : 'Fast and high-quality translations',
         }
         },
         esp: {
@@ -25,8 +24,9 @@ i18n
             "About me" : "SOBRE MÍ",
             "Services" : "SERVICIOS",
             "Contact" : "CONTACTO",
-            "salutation" : "Soy Manuel.",
-            
+            "BannerTitle" : 'Traductor Público',
+            "BannerSubtitle" : 'Traducciones rápido y de gran calidad',
+
         }
         }
     },
