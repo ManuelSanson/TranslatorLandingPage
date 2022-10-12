@@ -10,12 +10,21 @@ i18n
     resources: {
         en: {
         translations: {
+            "Home" : 'HOME',
+            "About me" : "ABOUT ME",
+            "Services" : "SERVICES",
+            "Contact" : "CONTACT",
+            
             "salutation" : "I am Manuel.",
             
         }
         },
         esp: {
         translations: {
+            "Home" : 'INICIO',
+            "About me" : "SOBRE MÍ",
+            "Services" : "SERVICIOS",
+            "Contact" : "CONTACTO",
             "salutation" : "Soy Manuel.",
             
         }

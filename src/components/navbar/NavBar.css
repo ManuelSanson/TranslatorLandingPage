@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #3e5D74;
+}
+
+.navLink {
+    font-weight: bold;
+    text-align: center;
+}
+
+.navLink:hover {
+    color: white;
+}
