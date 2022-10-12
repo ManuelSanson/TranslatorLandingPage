@@ -1,0 +1,25 @@
+.header {
+    background-color: #39819C;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTextLogoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.languageButtonsContainer button {
+    margin: 6px;
+    background-color: transparent;
+    border: transparent;
+    font-weight: bold;
+}
+
+.languageButtonsContainer button:hover {
+    background-color: #25A7BF;
+    border-radius: 20px;
+    color: white;
+}
