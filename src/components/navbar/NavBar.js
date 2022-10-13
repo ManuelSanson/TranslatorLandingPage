@@ -11,10 +11,10 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to='/' className="navLink"> {t('Home')}  </Nav.Link>
-                        <Nav.Link as={Link} to='aboutme' className="navLink"> {t('About me')} </Nav.Link>
-                        <Nav.Link as={Link} to='services' className="navLink"> {t('Services')} </Nav.Link>
-                        <Nav.Link as={Link} to='contact' className="navLink"> {t('Contact')} </Nav.Link>
+                        <Nav.Link as={Link} to='/' className="navLink"> {t('Home').toUpperCase()}  </Nav.Link>
+                        <Nav.Link as={Link} to='aboutme' className="navLink"> {t('About me').toUpperCase()} </Nav.Link>
+                        <Nav.Link as={Link} to='services' className="navLink"> {t('Services').toUpperCase()} </Nav.Link>
+                        <Nav.Link as={Link} to='contact' className="navLink"> {t('Contact').toUpperCase()} </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
