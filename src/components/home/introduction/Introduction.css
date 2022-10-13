@@ -1,0 +1,23 @@
+.introductionSection {
+    background-color: beige;
+}
+
+.introductionSection p {
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.introductionArticles {
+    margin-top: 30px;
+}
+
+.guarantees {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardImage {
+    width: 40%;
+}
