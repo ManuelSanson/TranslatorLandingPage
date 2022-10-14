@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="pt-4 text-center">
+            <div className="pt-5 pb-2 text-center">
                 <h5> {t('ReservedRights')} </h5>
             </div>
         </footer>
