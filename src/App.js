@@ -7,6 +7,7 @@ import NavBar from './components/navbar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
+import AboutMe from './components/aboutMe/AboutMe';
 
 
 function App () {
@@ -18,7 +19,7 @@ function App () {
       <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/aboutme' element={<h1>{t('About me')}</h1>} />
+        <Route path='/aboutme' element={<AboutMe/>} />
         <Route path='/services' element={<h1>{t('Services')}</h1>} />
         <Route path='/contact' element={<h1>{t('Contact')}</h1>} />
       </Routes>

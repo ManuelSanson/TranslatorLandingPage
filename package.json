@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.2",
+    "file-saver": "^2.0.5",
     "i18next": "^21.10.0",
     "i18next-browser-languagedetector": "^6.1.8",
     "react": "^18.2.0",
