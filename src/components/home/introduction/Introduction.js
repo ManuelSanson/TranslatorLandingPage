@@ -15,14 +15,14 @@ const Introduction = () => {
                     <h2> {t('Welcome')} </h2>
                     <p> {t('IntroductionText')} </p>
                     <div className='text-center'>
-                        <Button variant='light' as={Link} to='aboutme'> {t('ReadMore')} </Button>
+                        <Button variant='light' className="border" as={Link} to='aboutme'> {t('ReadMore')} </Button>
                     </div>
                 </article>
                 <article className="introductionArticles">
                     <h3> {t('Services')} </h3>
                     <p> {t('ServicesIntroductionText')} </p>
                     <div className='text-center'>
-                        <Button variant='light' as={Link} to='services'> {t('ReadMore')} </Button>
+                        <Button variant='light' className="border" as={Link} to='services'> {t('ReadMore')} </Button>
                     </div>
                 </article>
                 <article className="guarantees">
