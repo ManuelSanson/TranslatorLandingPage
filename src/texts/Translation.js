@@ -52,7 +52,6 @@ i18n
         }
     },
     fallbackLng: 'en',
-    lng: 'esp',
     debug: true,
     ns: ['translations'],
     defaultNS: 'translations',

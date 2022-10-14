@@ -1,14 +1,13 @@
 .bannerContainer {
     width: 100%;
-    background-image: url("https://res.cloudinary.com/diqry3ihg/image/upload/v1665607323/TranslatorLandingPage/Banner_w440ou.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 520px;
-    display: flex;
     background-color: beige;
 }
 
-.bannerText {
+.bannerContainer img {
+    width: 100%;
+}
+
+/* .bannerText {
     max-width: 60%;
     margin-left: 30px;
     margin-top: 50px;
@@ -140,4 +139,4 @@
         padding: 3px;
         font-size: 10px;
     }
-}
+} */
