@@ -15,19 +15,9 @@ const Banner = () => {
         }
     }, [i18n.language])
     
-
-
-
     return (
         <div className="bannerContainer">            
             <img id='banner' src={imgURL} alt='Banner'/>
-            
-            {/* <div className='bannerText' data-aos={"zoom-in"} data-aos-duration={"2000"}>
-                <h2> Manuel Sanson Prado </h2>
-                <h3> {t('BannerTitle')} </h3>
-                <h5> {t('BannerSubtitle')} </h5>
-                <Button variant='light' as={Link} to='contact' className='contactButton'> {t('ContactMe')} </Button>
-            </div> */}
         </div>    
     )
 }
