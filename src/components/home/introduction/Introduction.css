@@ -1,5 +1,6 @@
 .introductionSection {
     background-color: beige;
+    padding-bottom: 80px;
 }
 
 .introductionSection p {
@@ -18,6 +19,50 @@
     justify-content: space-evenly;
 }
 
+.guaranteeCard {
+    width: 28rem;
+}
+
 .cardImage {
-    width: 40%;
+    padding: 10px;
+    width: 120px;
+}
+
+@media screen and (max-width: 576px) {
+    .cardImage {
+        width: 90px;
+    }
+    .guarantees .cardTitle h3 {
+        font-size: 20px;
+    }
+    .guarantees .cardText {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .guarantees {
+        flex-direction: column;
+        align-items: center;
+    }
+    .guaranteeCard {
+        width: 20rem;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .guaranteeCard {
+        width: 18rem;
+        margin-bottom: 40px;
+    }
+    .cardImage {
+        width: 75px;
+    }
+    .guarantees .cardTitle h3 {
+        font-size: 18px;
+    }
+    .guarantees .cardText {
+        font-size: 12px;
+    }
 }
