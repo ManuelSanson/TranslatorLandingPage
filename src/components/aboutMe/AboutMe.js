@@ -18,9 +18,6 @@ const AboutMe = () => {
             setResumeName('Resume Translator Manuel Sanson Prado')
         }
     }, [i18n.language])
-    console.log(resumeURL);
-    
-
 
     const saveFile = () => {
         saveAs(`${resumeURL}`, `${resumeName}`);
