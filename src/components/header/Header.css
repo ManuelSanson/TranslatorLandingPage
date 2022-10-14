@@ -9,6 +9,12 @@
 .headerTextLogoContainer {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.headerTextLogoContainer:hover{
+    color: #3e5D74;
 }
 
 .headerTextLogoContainer h1 {
