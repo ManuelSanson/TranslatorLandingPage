@@ -10,3 +10,24 @@
 .navLink:hover {
     color: white;
 }
+
+@media screen and (max-width: 425px) {
+    .navLink {
+        font-size: 15px;
+    }
+    .navbar-toggle-icon {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navLink {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navLink {
+        font-size: 12px;
+    }
+}

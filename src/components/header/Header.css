@@ -6,9 +6,29 @@
     align-items: center;
 }
 
-.headerTextLogoContainer{
+.headerTextLogoContainer {
     display: flex;
     align-items: center;
+}
+
+.headerTextLogoContainer h1 {
+    margin-bottom: 0px;
+}
+
+.headerTextLogoContainer img {
+    width: 60px;
+    padding: 6px;
+}
+
+.languageButtonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.languageButtonsContainer p {
+    margin-bottom: 0px;
+    margin-left: 5px;
 }
 
 .languageButtonsContainer button {
@@ -16,6 +36,8 @@
     background-color: transparent;
     border: transparent;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .languageButtonsContainer button:hover {
@@ -28,4 +50,50 @@
     width: 25px;
     height: 20px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .headerTextLogoContainer h1 {
+        font-size: 25px;
+    }
+    .headerTextLogoContainer img {
+        width: 50px;
+    }
+    .languageButtonsContainer p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .headerTextLogoContainer h1 {
+        font-size: 22px;
+    }
+    .headerTextLogoContainer img {
+        width: 45px;
+    }
+    .languageButtonsContainer button{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .headerTextLogoContainer h1 {
+        font-size: 20px;
+    }
+    .headerTextLogoContainer img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .headerTextLogoContainer h1 {
+        font-size: 18px;
+    }
+    .headerTextLogoContainer img {
+        width: 35px;
+    }
+    .languageButtonsContainer button img {
+        width: 20px;
+        height: 15px;
+    }
 }
