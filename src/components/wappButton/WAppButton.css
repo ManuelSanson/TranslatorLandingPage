@@ -1,0 +1,59 @@
+.test {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.wappContainer {
+    position: fixed;
+    width: 160px;
+    z-index: 1;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.452);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.whatsapp_float {
+    text-decoration: none;
+    color: red;
+}
+
+.whatsapp_float:hover {
+    color: #39819C;
+}
+
+.wappContainer h6 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.logo {
+    width: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .wappContainer {
+        width: 130px;
+    }
+    .wappContainer h6 {
+        font-size: 10px;
+    }
+    
+    .logo {
+        width: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wappContainer {
+        width: 110px;
+    }
+    .wappContainer h6 {
+        font-size: 8px;
+    }
+    
+    .logo {
+        width: 18px;
+    }
+}

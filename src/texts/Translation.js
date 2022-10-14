@@ -34,6 +34,7 @@ i18n
             "TPAExperience" : "In March 2019 I started working at Traductores Públicos Asociados, where I worked as in-house Translator until June 2022. Since then, I work with them as part-time Translator. I have collaborated in a large number of translations, among which the following are noteworthy: Convention for the Protection of Individuals with regard to the Processing of Personal Data, miscellaneous documents for UPM S.A., Simplified Joint-Stock Company (SAS) Act (Law No. 19,820), Regulatory Project of the Central Bank of Uruguay, miscellaneous documents for renowned legal, accounting and notarial firms, as well as many translations for other clients, including texts of legal (contracts, bylaws, powers of attorney, certifications and legalizations, etc.), economic (financial statements and notes), civil (certificates of birth, death, marriage, identity card documents, passports, etc.), academic (official transcripts, degrees, certificates, etc.) and scientific (patents, computer science-related texts, medical documents, etc.) nature, among others.",
             "OfferService" : "As you can observe, I have significant experience in my profession, and I have worked with all types of documents. If you need my help to translate your documents, please get in touch with me.",
             "ContactMe" : "Contact me",
+            "WAppText" : "Talk to me on WhatsApp",
         }
         },
         esp: {
@@ -62,6 +63,7 @@ i18n
             "TPAExperience" : "En marzo de 2019 comencé a trabajar en Traductores Públicos Asociados, donde me desempeñé como Traductor in-house hasta junio de 2022. Desde entonces, trabajo con ellos part-time. Cabe destacar las siguientes traducciones en las que he colaborado: Convenio para  la Protección de  las Personas con respecto al Tratamiento de Datos Personales, documentos varios para UPM S.A., Ley SAS Número 19.820, Proyecto Regulatorio del Banco Central del Uruguay, documentos varios para importantes estudios jurídicos, contables y notariales, así como otra considerable cantidad de diferentes traducciones para otros clientes, incluyendo documentos de índole jurídica (contratos, estatutos, poderes, certificaciones y legalizaciones, etc.), económica (estados financieros y notas), civil (partidas de nacimiento, defunción, matrimonio, documentos de identidad, pasaportes, etc.), académica (escolaridades, títulos, certificados, etc.) y científica (patentes, textos de informática, documentos médicos, etc.).",
             "OfferService" : "Como podrás observar cuento con vasta experiencia en la profesión y he trabajado con todo tipo de documentos. Si precisas mi ayuda para traducir tus documentos, no dudes en consultarme.",
             "ContactMe" : "Contáctame",
+            "WAppText" : "Háblame por WhatsApp",
         }
         }
     },

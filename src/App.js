@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import AboutMe from './components/aboutMe/AboutMe';
+import WAppButton from './components/wappButton/WAppButton';
 
 
 function App () {
@@ -17,6 +18,7 @@ function App () {
     <BrowserRouter>
       <Header/>
       <NavBar/>
+      <WAppButton/>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/aboutme' element={<AboutMe/>} />
