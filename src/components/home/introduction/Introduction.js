@@ -26,14 +26,14 @@ const Introduction = () => {
                     </div>
                 </article>
                 <article className="guarantees">
-                    <Card data-aos={"fade-right"} data-aos-duration={"800"} className='guaranteeCard bg-light align-items-center text-center m-1 mb-3'>
+                    <Card data-aos={"flip-up"} data-aos-duration={"800"} className='guaranteeCard bg-light align-items-center text-center m-1 mb-3'>
                         <Card.Img variant="top" src="https://thedenverdentists.com/wp-content/uploads/2019/01/Checkmark-circle-blue.png" className="cardImage"/>
                         <Card.Body>
                             <Card.Title className="cardTitle"> <h3> {t('Quality')} </h3> </Card.Title>
                             <Card.Text className="cardText"> {t('QualityText')} </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card data-aos={"fade-right"} data-aos-duration={"800"} className='guaranteeCard bg-light align-items-center text-center m-1 mb-3'>
+                    <Card data-aos={"flip-up"} data-aos-duration={"800"} className='guaranteeCard bg-light align-items-center text-center m-1 mb-3'>
                         <Card.Img variant="top" src="https://www.shareicon.net/data/512x512/2017/06/21/887416_clock_512x512.png" className="cardImage"/>
                         <Card.Body className="justify-content-center">
                             <Card.Title className="cardTitle"> <h3> {t('Speed')} </h3> </Card.Title>
