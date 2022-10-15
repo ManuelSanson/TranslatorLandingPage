@@ -35,6 +35,18 @@ i18n
             "OfferService" : "As you can observe, I have significant experience in my profession, and I have worked with all types of documents. If you need my help to translate your documents, please get in touch with me.",
             "ContactMe" : "Contact me",
             "WAppText" : "Talk to me on WhatsApp",
+            "OfficialTranslations" : "Official translations",
+            "OfficialTranslations1" : "An official translation is a translation signed and sealed by a Certified Translator, complying with certain formalities, of a document written in a foreign language that must be submitted to national authorities or document written in local language that must be submitted to foreign authorities.",
+            "OfficialTranslations2" : "As a Certified Public Translator, I am commissioned to provide this kind of translations, and I have significant experience in this field.",
+            "OfficialTranslations3" : "The following are some examples official translations I usually deliver: contracts, bylaws, powers of attorney, certifications and legalizations, certificates and civil registry documents and academic documents, such as degrees and academic transcripts.",
+            "NonOfficialTranslations" : "Non-Official translations",
+            "NonOfficialTranslations1" : "A non-official translation does not require a Certified Translator’s signature and seal. However, you should always resort to a trained Translator expert in the field to make sure the Translation is made using all tools necessary to obtain a high-quality product.",
+            "NonOfficialTranslations2" : "The following are some examples non-official translations I usually deliver: contacts, financial statements, patents, different manuals and protocols, among others.",
+            "AudiovisualTranslations" : "Audiovisual translations",
+            "AudiovisualTranslations1" : "This area does not only require all skills necessary to translate, but also knowledge on rules applicable to subtitling and software used to add and synchronize subtitles, if required.",
+            "AudiovisualTranslations2" : "I have considerable experience in this field, since I have translated several films and short films for domestic film festivals, as well as numerous videos, for instance, a talk for the World Bank and a commercial spot of the facial recognition system implemented in Estadio Centenario, the most famous football stadium in Uruguay.",
+            "GetInTouch" : "If you need my help to translate your documents, whether official or non-official, or audiovisual content, please get in touch with me.",
+
         }
         },
         esp: {
@@ -64,6 +76,17 @@ i18n
             "OfferService" : "Como podrás observar cuento con vasta experiencia en la profesión y he trabajado con todo tipo de documentos. Si precisas mi ayuda para traducir tus documentos, no dudes en consultarme.",
             "ContactMe" : "Contáctame",
             "WAppText" : "Háblame por WhatsApp",
+            "OfficialTranslations" : "Traducciones oficiales",
+            "OfficialTranslations1" : "Las traducciones públicas son aquellas traducciones firmadas y selladas por un Traductor Público, cumpliendo con ciertas formalidades, de documentos redactados en un idioma extranjero que debe presentarse ante autoridades locales o documentos redactados en nuestro idioma nacional que deben presentarse en el extranjero.",
+            "OfficialTranslations2" : "Al ser Licenciado en Traducción Pública me encuentro habilitado para realizar este tipo de traducciones y cuento con considerable experiencia en el rubro.",
+            "OfficialTranslations3" : "Dentro de las traducciones oficiales más habituales con las que he trabajado se encuentran: contratos, estatutos, poderes, certificaciones y legalizaciones, partidas y documentos del registro civil y documentos académicos, tales como títulos y escolaridades.",
+            "NonOfficialTranslations" : "Traducciones no oficiales",
+            "NonOfficialTranslations1" : "Las traducciones no oficiales son aquellas que no requieren la firma y el sello del Traductor Público. Sin embargo, siempre es recomendable acudir a un Traductor formado en la materia ya que cuenta con todas las herramientas necesarias para realizar este trabajo.",
+            "NonOfficialTranslations2" : "Dentro de las traducciones no oficiales más habituales con las que he trabajado se encuentran: contratos, estados financieros, patentes, diversos manuales y protocolos, entre otros.",
+            "AudiovisualTranslations" : "Traducciones Audiovisuales",
+            "AudiovisualTranslations1" : "En este rubro es necesario no solo contar con los conocimientos necesarios para traducir, sino que también es necesario conocer las normas aplicables al subtitulado y el software utilizado para insertar y sincronizar los subtítulos, en caso de ser necesario.",
+            "AudiovisualTranslations2" : "Es un área en la que poseo vasta experiencia ya que he subtitulado varios cortos y películas para festivales de cine locales, así como diversos videos, por ejemplo, una charla para el Banco Mundial y una publicidad del sistema de reconocimiento fácil implementado en el Estadio Centenario.",
+            "GetInTouch" : "Si precisas mi ayuda para traducir tus documentos, ya sean oficiales o no oficiales, o necesitas traducir contenido audiovisual, no dudes en consultarme.",
         }
         }
     },
