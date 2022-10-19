@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="footerInfoContainer">
                 <div className='logoFollowMeContainer'>
                     <div className='footerTextLogoContainer'>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C3%86toms_-_Translation.svg/800px-%C3%86toms_-_Translation.svg.png" alt='MS Traducciones Logo'/>
+                        <img src="https://res.cloudinary.com/diqry3ihg/image/upload/v1666220135/TranslatorLandingPage/Logo_01_a4xnul.png" alt='MS Traducciones Logo'/>
                         <h2> MS Traducciones </h2>
                     </div>
                     <div className="linkedIn">

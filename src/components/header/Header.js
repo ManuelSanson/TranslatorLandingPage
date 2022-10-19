@@ -13,8 +13,8 @@ const Header = () => {
     return (
         <header className='header'>
             <Link to='/' className='headerTextLogoContainer'> 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C3%86toms_-_Translation.svg/800px-%C3%86toms_-_Translation.svg.png" alt='MS Traducciones Logo'/>
-                <h1> MS Traducciones </h1>       
+                <img src="https://res.cloudinary.com/diqry3ihg/image/upload/v1666220135/TranslatorLandingPage/Logo_01_a4xnul.png" alt='MS Traducciones Logo'/>
+                {/* <h1> MS Traducciones </h1>        */}
             </Link>
             <div className='languageButtonsContainer'>
                 <button onClick={() => changeLanguage('en')}> <img src='https://res.cloudinary.com/diqry3ihg/image/upload/c_scale,w_81/v1665611223/TranslatorLandingPage/US-UKFlag_msslku.png' alt='US-UK Flag'/> <p>English</p> </button>
