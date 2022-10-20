@@ -15,7 +15,7 @@ import Contact from './components/contact/Contact';
 function App () {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/TranslatorLandingPage'>
       <Header/>
       <NavBar/>
       <WAppButton/>
