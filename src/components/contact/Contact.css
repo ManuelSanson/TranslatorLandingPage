@@ -6,3 +6,21 @@
 .contactForm {
     width: 80%;
 }
+
+@media screen and (max-width: 375px) {
+    .contactFormContainer h2 {
+        font-size: 22px;
+    }
+    .contactFormContainer h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contactFormContainer h2 {
+        font-size: 19px;
+    }
+    .contactFormContainer h3 {
+        font-size: 16px;
+    }
+}

@@ -38,7 +38,7 @@ const Contact = () => {
     }
 
     return (
-        <main>
+        <main className="contactFormContainer">
             <h2 className="text-center mt-4 mb-4"> {t('Help')} </h2>
             <h3 className="m-4"> {t('SendMessage')} </h3>
             <Container className="formContainer mb-4">
@@ -58,7 +58,7 @@ const Contact = () => {
                 </Form>
             </Container>
             <div className="mb-5 text-center">
-                <Button size='lg' onClick={submitMessage} variant="success" type="submit">
+                <Button size='md' onClick={submitMessage} variant="success" type="submit">
                     {t('Submit')}
                 </Button>
             </div>
