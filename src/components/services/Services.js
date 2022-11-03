@@ -41,7 +41,7 @@ const Services = () => {
             </section>
             <div className="m-5 text-center">
                 <p className="getInTouch"> {t('GetInTouch')} </p>
-                <Button variant='light' className="getInTouchButton m-3 border" as={Link} to='/contact'> {t('ContactMe')} </Button>
+                <Button variant='light' className="getInTouchButton m-3 border button" as={Link} to='/contact'> {t('ContactMe')} </Button>
             </div>
         </main>
     )
