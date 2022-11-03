@@ -26,7 +26,7 @@ const AboutMe = () => {
         <main>
             <Resume/>
             <div className="text-center">
-                <Button className="border m-5" variant='light' onClick={saveFile}> {t('DownloadResume')} </Button>
+                <Button className="button border m-5" variant='light' onClick={saveFile}> <img src="https://res.cloudinary.com/diqry3ihg/image/upload/v1667433028/TranslatorLandingPage/icons8-downloading-updates-16_ghyg8j.png" alt="Download"/> {t('DownloadResume')} </Button>
             </div>
         </main>
     )
