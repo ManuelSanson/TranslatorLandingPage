@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import Swal from "sweetalert2";
+import { BsPhone } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
 import './Contact.css';
 
 
@@ -26,16 +28,10 @@ const Contact = () => {
             setEmailAddress('');
             setSubject('');
             setMessage('');
-        } else {
-            Swal.fire({
-                position: 'center',
-                icon: 'error',
-                title: `${t('FillAll')}`,
-                showConfirmButton: false,
-                timer: 1500
-            })
         }
     }
+
+    const isDisabled = emailAddress === '' || subject === '' || message === ''
 
     return (
         <main className="contactFormContainer">
@@ -53,14 +49,29 @@ const Contact = () => {
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                         <Form.Label> {t('Message')} </Form.Label>
-                        <Form.Control as="textarea" rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
+                        <Form.Control as="textarea" placeholder={t('Help')} rows={3} value={message} onChange={(e) => setMessage(e.target.value)}/>
                     </Form.Group>
                 </Form>
             </Container>
             <div className="mb-5 text-center">
-                <Button size='md' onClick={submitMessage} variant="success" type="submit">
+                <Button disabled={isDisabled} size='md' onClick={submitMessage} variant="success"  className='button' type="submit">
                     {t('Submit')}
                 </Button>
+            </div>
+            <div className="orContact">
+                <div className="line"></div>
+                <h6> {t('OR')} </h6>
+                <div className="line"></div>
+            </div>
+            <div className="orContact communication">
+                <div className="communicationMean">
+                    <BsPhone />
+                    <h6>(+598)98981698</h6>
+                </div>
+                <div className="communicationMean">
+                    <AiOutlineMail/>
+                    <h6>tp.msanson@gmail.com</h6>
+                </div>
             </div>
         </main>
     )
