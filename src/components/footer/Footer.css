@@ -1,5 +1,5 @@
 .footerContainer {
-    background-color: #39819C;
+    background-color: #3e5D74;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
@@ -15,8 +15,9 @@
     align-items: center;
 }
 
-.footerContainer h5{
+.footerContainer h2, h5, h6{
     margin-bottom: 0px;
+    color: white;
 }
 
 .footerTextLogoContainer img {
@@ -47,6 +48,24 @@
     margin-right: 20px;
 }
 
+.footerNavBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footerNavBar a {
+    color: white;
+}
+
+.footerNavBar a:hover {
+    color: #000080ab;
+}
+
+.development  {
+    background-color: #39819C;
+}
+
 @media screen and (max-width: 768px) {
     .footerContainer h5 {
         font-size: 18px;
@@ -56,6 +75,9 @@
 @media screen and (max-width: 576px) {
     .footerContainer h5 {
         font-size: 15px;
+    }
+    .footerContainer h6 {
+        font-size: 13px;
     }
     .footerTextLogoContainer img {
         width: 40px;
@@ -71,6 +93,9 @@
 @media screen and (max-width: 425px) {
     .footerContainer h5 {
         font-size: 12px;
+    }
+    .footerContainer h6 {
+        font-size: 11px;
     }
     .locationPin, .cellphone, .email {
         margin-right: 10px;
@@ -89,6 +114,9 @@
 @media screen and (max-width: 320px) {
     .footerContainer h5 {
         font-size: 10px;
+    }
+    .footerContainer h6 {
+        font-size: 9px;
     }
     .locationPin, .cellphone, .email {
         margin-right: 5px;
