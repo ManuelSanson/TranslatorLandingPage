@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Header from './components/header/Header';
 import NavBar from './components/navbar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home';
@@ -16,7 +15,6 @@ function App () {
 
   return (
     <BrowserRouter basename='/TranslatorLandingPage'>
-      <Header/>
       <NavBar/>
       <WAppButton/>
       <Routes>
