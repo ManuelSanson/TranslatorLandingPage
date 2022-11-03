@@ -18,11 +18,11 @@ const Resume = () => {
                 <div className='description'>
                     <p className='mt-4'> {t('BriefPresentation')} </p>
                     <p className='mt-4'> {t('LearnAboutServices')} </p>
-                    <Button variant='light' className="descriptionButton border" as={Link} to='/services'> {t('Services')} </Button>
+                    <Button variant='light' className="descriptionButton border button" as={Link} to='/services'> {t('Services')} </Button>
                     <p className='mt-4'> {t('FreelanceExperience')} </p>
                     <p className='mt-4'> {t('TPAExperience')} </p>
                     <p className='mt-4'> {t('OfferService')} </p>
-                    <Button variant='light' className="descriptionButton border" as={Link} to='/contact'> {t('ContactMe')} </Button>
+                    <Button variant='light' className="descriptionButton border button" as={Link} to='/contact'> {t('ContactMe')} </Button>
                 </div>
             </article>
 
