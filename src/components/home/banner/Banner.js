@@ -7,12 +7,12 @@ const Banner = () => {
     const [imgURL, setImgURL] = useState("");
 
     useEffect(() => {
-        if (i18n.language === 'esp') {
-            setImgURL('https://res.cloudinary.com/diqry3ihg/image/upload/v1665764165/TranslatorLandingPage/BannerEsp_oeyqva.png')
-        } 
         if (i18n.language === 'en') {
             setImgURL('https://res.cloudinary.com/diqry3ihg/image/upload/v1665764165/TranslatorLandingPage/BannerEng_j5l06p.png')
         }
+        if (i18n.language === 'esp') {
+            setImgURL('https://res.cloudinary.com/diqry3ihg/image/upload/v1665764165/TranslatorLandingPage/BannerEsp_oeyqva.png')
+        } 
     }, [i18n.language])
     
     return (
