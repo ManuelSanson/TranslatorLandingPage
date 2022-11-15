@@ -8,7 +8,6 @@ This project was created using:
 - File server
 - React Router Dom
 - i18n
-- Formik
 - EmailJS
 
 It has full responsive design
