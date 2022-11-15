@@ -10,7 +10,6 @@ import WAppButton from './components/wappButton/WAppButton';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 
-
 function App () {
 
   return (
