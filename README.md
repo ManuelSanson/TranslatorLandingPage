@@ -7,6 +7,7 @@ This project was created using:
 - React Bootstrap
 - File server
 - React Router Dom
+- React Awesome Slider
 - i18n
 - EmailJS
 
