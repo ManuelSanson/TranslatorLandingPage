@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import './NavBar.css';
 
 const NavBar = () => {
-    //const { t } = useTranslation();
     const { i18n, t } = useTranslation();
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
