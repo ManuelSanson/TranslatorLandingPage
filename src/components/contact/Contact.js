@@ -64,7 +64,7 @@ const Contact = () => {
                     </Form.Group>
                     {emailAddress !== confirmationEmailAddress && emailAddress !== '' && confirmationEmailAddress !== '' && 
                         <Alert key='danger' variant='danger'>
-                            Your email does not match
+                            {t('EmailMatch')}
                         </Alert>}
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label> {t('Subject')} </Form.Label>
