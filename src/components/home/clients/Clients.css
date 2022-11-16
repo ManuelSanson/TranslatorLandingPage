@@ -40,6 +40,9 @@
     .carouselContainer img {
         padding-top: 15px;
     }
+    .clientsSection h2 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -49,15 +52,21 @@
     .carouselContainer h3 {
         font-size: 16px;
     }
+    .clientsSection h2 {
+        font-size: 18px;
+    }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
     .carouselContainer img {
         width: 160px;
     }
     .carouselContainer h3 {
         font-size: 14px;
         margin-top: 5px;
+    }
+    .clientsSection h2 {
+        font-size: 16px;
     }
 }
 
@@ -68,5 +77,8 @@
     .carouselContainer h3 {
         font-size: 12px;
         margin-top: 2px;
+    }
+    .clientsSection h2 {
+        font-size: 14px;
     }
 }
