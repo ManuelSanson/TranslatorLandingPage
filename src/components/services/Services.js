@@ -5,10 +5,13 @@ import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Services.css';
+import { useScrollToTop } from '../../context/ScrollToTopContext';
 
 const Services = () => {
     const { t } = useTranslation();
+    const { scrollToTop } = useScrollToTop();
     AOS.init()
+
     return (
         <main>
             <h2 className='m-5'> {t('Services')} </h2>
@@ -41,7 +44,7 @@ const Services = () => {
             </section>
             <div className="m-5 text-center">
                 <p className="getInTouch"> {t('GetInTouch')} </p>
-                <Button variant='light' className="getInTouchButton m-3 border button" as={Link} to='/contact'> {t('ContactMe')} </Button>
+                <Button variant='light' className="getInTouchButton m-3 border button" as={Link} to='/contact' onClick={scrollToTop}> {t('ContactMe')} </Button>
             </div>
         </main>
     )

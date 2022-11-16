@@ -9,6 +9,7 @@ import AboutMe from './components/aboutMe/AboutMe';
 import WAppButton from './components/wappButton/WAppButton';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
+import ScrollToTopProvider from './context/ScrollToTopContext';
 
 function App () {
 
@@ -16,13 +17,15 @@ function App () {
     <BrowserRouter basename='/TranslatorLandingPage'>
       <NavBar/>
       <WAppButton/>
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/aboutme' element={<AboutMe/>} />
-        <Route path='/services' element={<Services/>} />
-        <Route path='/contact' element={<Contact/>} />
-      </Routes>
-      <Footer/>
+      <ScrollToTopProvider>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/aboutme' element={<AboutMe/>} />
+          <Route path='/services' element={<Services/>} />
+          <Route path='/contact' element={<Contact/>} />
+        </Routes>
+        <Footer/>
+      </ScrollToTopProvider>
     </BrowserRouter>
   )
 }

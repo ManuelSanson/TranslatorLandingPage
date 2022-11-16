@@ -5,9 +5,11 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Footer.css';
+import { useScrollToTop } from "../../context/ScrollToTopContext";
 
 const Footer = () => {
     const { t } = useTranslation();
+    const { scrollToTop } = useScrollToTop();
     
     return (
         <footer className="footerContainer">
@@ -40,10 +42,10 @@ const Footer = () => {
                 </div>
             </div>
             <Nav className="footerNavBar">
-                <Nav.Link as={Link} to='/' className="navLink"> {t('Home')}  </Nav.Link>
-                <Nav.Link as={Link} to='aboutme' className="navLink"> {t('About me')} </Nav.Link>
-                <Nav.Link as={Link} to='services' className="navLink"> {t('Services')} </Nav.Link>
-                <Nav.Link as={Link} to='contact' className="navLink"> {t('Contact')} </Nav.Link>
+                <Nav.Link as={Link} to='/' className="navLink" onClick={scrollToTop}> {t('Home')}  </Nav.Link>
+                <Nav.Link as={Link} to='aboutme' className="navLink" onClick={scrollToTop}> {t('About me')} </Nav.Link>
+                <Nav.Link as={Link} to='services' className="navLink" onClick={scrollToTop}> {t('Services')} </Nav.Link>
+                <Nav.Link as={Link} to='contact' className="navLink" onClick={scrollToTop}> {t('Contact')} </Nav.Link>
             </Nav>
             <div className="pt-5 pb-2 text-center">
                 <h6> {t('ReservedRights')} </h6>

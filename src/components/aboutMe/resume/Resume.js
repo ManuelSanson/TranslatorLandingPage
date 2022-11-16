@@ -1,10 +1,13 @@
 import { Button } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { useScrollToTop } from '../../../context/ScrollToTopContext';
 import './Resume.css';
 
 const Resume = () => {
     const { t } = useTranslation();
+    const { scrollToTop } = useScrollToTop();
+
     return (
         <section>
             <article className="text-center p-5">
@@ -18,11 +21,11 @@ const Resume = () => {
                 <div className='description'>
                     <p className='mt-4'> {t('BriefPresentation')} </p>
                     <p className='mt-4'> {t('LearnAboutServices')} </p>
-                    <Button variant='light' className="descriptionButton border button" as={Link} to='/services'> {t('Services')} </Button>
+                    <Button variant='light' className="descriptionButton border button" as={Link} to='/services' onClick={scrollToTop}> {t('Services')} </Button>
                     <p className='mt-4'> {t('FreelanceExperience')} </p>
                     <p className='mt-4'> {t('TPAExperience')} </p>
                     <p className='mt-4'> {t('OfferService')} </p>
-                    <Button variant='light' className="descriptionButton border button" as={Link} to='/contact'> {t('ContactMe')} </Button>
+                    <Button variant='light' className="descriptionButton border button" as={Link} to='/contact' onClick={scrollToTop}> {t('ContactMe')} </Button>
                 </div>
             </article>
 
