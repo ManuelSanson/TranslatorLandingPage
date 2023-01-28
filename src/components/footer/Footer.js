@@ -20,7 +20,7 @@ const Footer = () => {
                         <h2> MS Traducciones </h2>
                     </div>
                     <div className="linkedIn">
-                        <h5> {t('LinkedInMessage')} </h5><span><a href="https://www.linkedin.com/in/manuel-sanson-trans-dev/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png" alt="Linkedin logo"/></a></span>
+                        <h5> {t('LinkedInMessage')} </h5><span><a href={t('LinkedInURL')} target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png" alt="Linkedin logo"/></a></span>
                     </div>
                 </div>
                 <div className="contactDataContainer">
