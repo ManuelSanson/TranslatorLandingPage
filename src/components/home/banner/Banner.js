@@ -1,23 +1,12 @@
-import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Banner.css'
 
 const Banner = () => {
-    const { i18n } = useTranslation();
-    const [imgURL, setImgURL] = useState("");
-
-    useEffect(() => {
-        if (i18n.language === 'en') {
-            setImgURL('https://res.cloudinary.com/diqry3ihg/image/upload/v1665764165/TranslatorLandingPage/BannerEng_j5l06p.png')
-        }
-        if (i18n.language === 'esp') {
-            setImgURL('https://res.cloudinary.com/diqry3ihg/image/upload/v1665764165/TranslatorLandingPage/BannerEsp_oeyqva.png')
-        } 
-    }, [i18n.language])
+    const { t } = useTranslation();
     
     return (
         <div className="bannerContainer">            
-            <img id='banner' src={imgURL} alt='Banner'/>
+            <img id='banner' src={t('BannerLink')} alt='Banner'/>
         </div>    
     )
 }
