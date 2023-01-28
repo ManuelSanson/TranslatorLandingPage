@@ -25,6 +25,10 @@
     padding-right: 6px;
 }
 
+.footerTextLogoContainer img:hover {
+    cursor: pointer;
+}
+
 .linkedIn {
     justify-content: center;
     align-items: center;

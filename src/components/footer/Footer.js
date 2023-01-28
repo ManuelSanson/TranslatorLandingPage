@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="footerInfoContainer">
                 <div className='logoFollowMeContainer'>
                     <div className='footerTextLogoContainer'>
-                        <img src="https://res.cloudinary.com/diqry3ihg/image/upload/v1667418506/TranslatorLandingPage/MSTraducciones_Logo_daheut.png" alt='MS Traducciones Logo'/>
+                        <img src="https://res.cloudinary.com/diqry3ihg/image/upload/v1667418506/TranslatorLandingPage/MSTraducciones_Logo_daheut.png" alt='MS Traducciones Logo' onClick={scrollToTop}/>
                         <h2> MS Traducciones </h2>
                     </div>
                     <div className="linkedIn">
