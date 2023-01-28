@@ -5,7 +5,7 @@ This project was created using:
 - CRA
 - ReactJS
 - React Bootstrap
-- File server
+- File Server
 - React Router Dom
 - React Awesome Slider
 - i18n
@@ -25,7 +25,8 @@ It has full responsive design
 
 ## Folder structure
 - `/components`
-- `/text`
+- `/context`
+- `/texts`
 
 ## Available Scripts
 
