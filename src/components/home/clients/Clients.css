@@ -4,18 +4,18 @@
 }
 
 .carouselContainer {
-    background-color: #3e5D74;
+    background-color: transparent;
     max-width: 60%;
     z-index: -1;
 }
 
 .awssld__content {
-    background-color: #3e5D74;
+    background-color: transparent;
     z-index: -1;
 }
 
 .awssld__timer {
-    background-color: #3e5D74;
+    background-color: transparent;
 }
 
 .carouselContainer img {
@@ -23,7 +23,6 @@
 }
 
 .carouselContainer h3 {
-    color: beige;
     margin-top: 15px;
 }
 
