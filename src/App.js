@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import AboutMe from './components/aboutMe/AboutMe';
-import WAppButton from './components/wappButton/WAppButton';
+import CommButton from './components/commButtons/CommButtons';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import ScrollToTopProvider from './context/ScrollToTopContext';
@@ -16,7 +16,7 @@ function App () {
   return (
     <BrowserRouter basename='/TranslatorLandingPage'>
       <NavBar/>
-      <WAppButton/>
+      <CommButton/>
       <ScrollToTopProvider>
         <Routes>
           <Route path='/' element={<Home/>} />
