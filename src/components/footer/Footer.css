@@ -68,6 +68,14 @@
 
 .development  {
     background-color: #39819C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.development img {
+    margin-left: 10px;
+    width: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,13 +92,16 @@
         font-size: 13px;
     }
     .footerTextLogoContainer img {
-        width: 40px;
+        width: 50px;
     }
     .footerTextLogoContainer h2 {
         font-size: 22px;
     }
     .linkedIn img {
         width: 35px;
+    }
+    .development img {
+        width: 30px;
     }
 }
 
@@ -105,12 +116,15 @@
         margin-right: 10px;
     }
     .footerTextLogoContainer img {
-        width: 35px;
+        width: 40px;
     }
     .footerTextLogoContainer h2 {
         font-size: 18px;
     }
     .linkedIn img {
+        width: 25px;
+    }
+    .development img {
         width: 25px;
     }
 }
@@ -127,7 +141,7 @@
         width: 8px;
     }
     .footerTextLogoContainer img {
-        width: 30px;
+        width: 35px;
     }
     .footerTextLogoContainer h2 {
         font-size: 16px;

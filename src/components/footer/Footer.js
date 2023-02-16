@@ -52,6 +52,9 @@ const Footer = () => {
             </div>
             <div className="development pt-2 pb-1 text-center">
                 <h6> {t('Development')} </h6>
+                <a href="https://manuelsanson.github.io/ManuelSanson-ProjectsPortfolio/" target="blank">
+                    <img src="https://res.cloudinary.com/diqry3ihg/image/upload/v1669564167/DevPortfolio/MSFrontendLogo_kuoxx6.png" alt="Manuel Sanson - Frontend Developer Logo"/>
+                </a>
             </div>
         </footer>
     )
