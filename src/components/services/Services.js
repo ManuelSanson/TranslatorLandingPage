@@ -17,7 +17,7 @@ const Services = () => {
             <h2 className='m-5'> {t('Services')} </h2>
             <section>
                 <article data-aos={"zoom-in-right"} className='serviceContainer'>
-                    <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1665862925/TranslatorLandingPage/OfficialTranslationPicture1_mc7v69.jpg' alt='Official Translation' className='servicePicture'/>
+                    <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1677705336/TranslatorLandingPage/OfficialTranslations_mlxvyc.png' alt='Official Translation' className='servicePicture'/>
                     <div className='serviceDescription'>
                         <h3> {t('OfficialTranslations')} </h3>
                         <p> {t('OfficialTranslations1')} </p>
@@ -26,7 +26,7 @@ const Services = () => {
                     </div>
                 </article>
                 <article data-aos={"zoom-in-right"} className='serviceContainer'>
-                    <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1665864039/TranslatorLandingPage/NonOfficialTranslationPicture1_tyxsad.jpg' alt='Non-Official Translation' className='servicePicture'/>
+                    <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1677705588/TranslatorLandingPage/NonOfficialTranslations_kksa7k.png' alt='Non-Official Translation' className='servicePicture'/>
                     <div className='serviceDescription'>
                         <h3> {t('NonOfficialTranslations')} </h3>
                         <p> {t('NonOfficialTranslations1')} </p>
@@ -34,7 +34,7 @@ const Services = () => {
                     </div>
                 </article>
                 <article data-aos={"zoom-in-right"} className='serviceContainer'>
-                    <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1665864761/TranslatorLandingPage/AudiovisualTranslation_lb7sd2.png' alt='Audiovisual Translation' className='servicePicture'/>
+                    <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1677705260/TranslatorLandingPage/AudiovisualTranslations_egyocq.png' alt='Audiovisual Translation' className='servicePicture'/>
                     <div className='serviceDescription'>
                         <h3> {t('AudiovisualTranslations')} </h3>
                         <p> {t('AudiovisualTranslations1')} </p>
