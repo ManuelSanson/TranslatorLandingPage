@@ -10,11 +10,11 @@ const AboutMe = () => {
     const [resumeName, setResumeName] = useState("");
     useEffect(() => {
         if (i18n.language === 'esp') {
-            setResumeURL("https://res.cloudinary.com/diqry3ihg/image/upload/v1665781272/TranslatorLandingPage/CV_Traductor_Manuel_Sanson_vd2cpu.jpg")
+            setResumeURL("https://res.cloudinary.com/diqry3ihg/image/upload/v1677710442/TranslatorLandingPage/CV_Traductor_Manuel_Sanson.esp_kr0mk7.jpg")
             setResumeName('CV Traductor Manuel Sanson Prado')
         }
         if (i18n.language === 'en') {
-            setResumeURL("https://res.cloudinary.com/diqry3ihg/image/upload/v1665781272/TranslatorLandingPage/Resume_Translator_Manuel_Sanson_rjfiut.jpg")
+            setResumeURL("https://res.cloudinary.com/diqry3ihg/image/upload/v1677710448/TranslatorLandingPage/Resume_Translator_Manuel_Sanson.eng_rll8bd.jpg")
             setResumeName('Resume Translator Manuel Sanson Prado')
         }
     }, [i18n.language])
