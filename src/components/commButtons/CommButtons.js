@@ -8,10 +8,10 @@ const CommButton = () => {
     
     useEffect(() => {
         if (i18n.language === 'en') {
-            setWPMessage('https://wa.me/59898981698?text=Hi%2C%20I%20was%20browsing%20your%20website%20and%20I%20have%20a%20question')
+            setWPMessage('https://wa.me/59899377561?text=Hi%2C%20I%20was%20browsing%20your%20website%20and%20I%20have%20a%20question')
         }
         if (i18n.language === 'esp') {
-            setWPMessage('https://wa.me/59898981698?text=Hola%2C%20estaba%20mirando%20tu%20sitio%20web%20y%20tengo%20una%20consulta')
+            setWPMessage('https://wa.me/59899377561?text=Hola%2C%20estaba%20mirando%20tu%20sitio%20web%20y%20tengo%20una%20consulta')
         } 
     }, [i18n.language])
 

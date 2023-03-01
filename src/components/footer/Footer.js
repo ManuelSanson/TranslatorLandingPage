@@ -33,11 +33,11 @@ const Footer = () => {
                     </div>
                     <div className="contactContainer">
                         <BsPhone className="cellphone"/>
-                        <h5>(+598)98981698</h5>
+                        <h5>(+598)99377561</h5>
                     </div>
                     <div className="contactContainer">
                         <AiOutlineMail className="email"/>
-                        <h5>tp.msanson@gmail.com</h5>
+                        <h5>manuel@ms-traducciones.com</h5>
                     </div>
                 </div>
             </div>

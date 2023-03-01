@@ -89,11 +89,11 @@ const Contact = () => {
             <div className="orContact communication">
                 <div className="communicationMean">
                     <BsPhone />
-                    <h6>(+598)98981698</h6>
+                    <h6>(+598)99377561</h6>
                 </div>
                 <div className="communicationMean">
                     <AiOutlineMail/>
-                    <h6>tp.msanson@gmail.com</h6>
+                    <h6>manuel@ms-traducciones.com</h6>
                 </div>
             </div>
         </main>
