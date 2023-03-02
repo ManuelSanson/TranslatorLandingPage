@@ -25,7 +25,8 @@
     margin: 0px;
 }
 
-.communication {
+.communicationMeans {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -43,6 +44,12 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    .communicationMeans {
+        flex-direction: column;
+    }
+    .communicationMean {
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -53,7 +60,7 @@
         font-size: 20px;
     }
     .communicationMean h6 {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
@@ -65,7 +72,6 @@
         font-size: 16px;
     }
     .communicationMean h6 {
-        font-size: 12px;
-        margin-left: 4px;
+        font-size: 13px;
     }
 }

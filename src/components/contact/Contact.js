@@ -86,7 +86,7 @@ const Contact = () => {
                 <h6> {t('OR')} </h6>
                 <div className="line"></div>
             </div>
-            <div className="orContact communication">
+            <div className="orContact communicationMeans">
                 <div className="communicationMean">
                     <BsPhone />
                     <h6>(+598)99377561</h6>

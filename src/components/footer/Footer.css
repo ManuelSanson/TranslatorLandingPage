@@ -129,7 +129,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px)  {
     .footerContainer h5 {
         font-size: 10px;
     }
@@ -148,5 +148,21 @@
     }
     .linkedIn img {
         width: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footerContainer h5 {
+        font-size: 8px;
+    }
+    .locationPin, .cellphone, .email {
+        margin-right: 5px;
+        width: 6px;
+    }
+    .footerTextLogoContainer h2 {
+        font-size: 14px;
+    }
+    .linkedIn img {
+        width: 18px;
     }
 }

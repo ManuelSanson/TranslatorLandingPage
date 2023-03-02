@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .talkToMe {
+    .logoFloat:hover + .talkToMe {
         display: none;
     }
     .commLogoContainer {

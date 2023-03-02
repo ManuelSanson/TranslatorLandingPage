@@ -25,7 +25,7 @@ const CommButton = () => {
                     <h6 className='talkToMe'> {t('WAppText')} </h6>
                 </div>
                 <div className='commLogoContainer'>
-                    <a href="https://t.me/ManuelSanson" data-action='box' className="logoFloat" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/MSTraducciones" data-action='box' className="logoFloat" target="_blank" rel="noopener noreferrer">
                         <img src='https://res.cloudinary.com/diqry3ihg/image/upload/v1676573588/TranslatorLandingPage/Telegram-logo_bxw6mc.png' alt='Telegram Logo' className='logo'/>
                     </a>
                     <h6 className='talkToMe'> {t('TelegramText')} </h6>
