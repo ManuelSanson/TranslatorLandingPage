@@ -1,6 +1,8 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "ms-traducciones-webapp",
+  "homepage": "http://www.ms-traducciones.com/",
+  "version": "1.0.0",
+  "description": "Translator Landing Page",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
@@ -30,7 +32,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://manuelsanson.github.io/TranslatorLandingPage",
   "eslintConfig": {
     "extends": [
       "react-app",

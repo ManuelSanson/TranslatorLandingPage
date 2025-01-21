@@ -1,3 +1,7 @@
+.contactFormContainer {
+    background-color: beige;
+}
+
 .formContainer {
     display: flex;
     justify-content: center;
@@ -17,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
+    padding: 10px 40px 40px 40px;
 }
 
 .orContact h6 {
