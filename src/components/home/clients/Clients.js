@@ -1,26 +1,69 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-// import AwesomeSlider from "react-awesome-slider";
-// import withAutoplay from "react-awesome-slider/dist/autoplay";
+import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import "./Clients.css";
 import AOS from "aos";
 
 const Clients = () => {
   const { t } = useTranslation();
-  // const AutoplaySlider = withAutoplay(AwesomeSlider);
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
   AOS.init();
 
   return (
     <section className="clientsSection">
-      {/* <Container className="pt-4 mb-4">
-        <h2> {t("MyClients")} </h2>
+      <Container className="pt-4 mb-4">
+        {/* <h2> {t("MyClients")} </h2> */}
+        <h2> {t("Opinions")} </h2>
       </Container>
 
       <Container className="carouselContainer text-center">
         <AutoplaySlider play={true} cancelOnInteraction={false} interval={1200}>
           <div>
+            <Card className="clientCard bg-light align-items-center text-center m-1 mb-3">
+              <Card.Body>
+                <Card.Title className="clientCardTitle">
+                  {" "}
+                  <h3> {t("PositionTorres")} </h3>{" "}
+                </Card.Title>
+                <Card.Text className="clientCardText">
+                  {" "}
+                  {t("OpinionTorres")}{" "}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          <div>
+            <Card className="clientCard bg-light align-items-center text-center m-1 mb-3">
+              <Card.Body>
+                <Card.Title className="clientCardTitle">
+                  {" "}
+                  <h3> {t("PositionBonaudi")} </h3>{" "}
+                </Card.Title>
+                <Card.Text className="clientCardText">
+                  {" "}
+                  {t("OpinionBonaudi")}{" "}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          <div>
+            <Card className="clientCard bg-light align-items-center text-center m-1 mb-3">
+              <Card.Body>
+                <Card.Title className="clientCardTitle">
+                  {" "}
+                  <h3> {t("PositionFerragut")} </h3>{" "}
+                </Card.Title>
+                <Card.Text className="clientCardText">
+                  {" "}
+                  {t("OpinionFerragut")}{" "}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          {/*    <div>
             <img
               src="https://res.cloudinary.com/diqry3ihg/image/upload/v1668535940/TranslatorLandingPage/mvs-logo_hmpr6i.jpg"
               alt="MVS Abogados Logo"
@@ -103,11 +146,11 @@ const Clients = () => {
               src="https://res.cloudinary.com/diqry3ihg/image/upload/v1725910764/TranslatorLandingPage/pointAmericas_iwhr5z.png"
               alt="Point Americas Logo"
             />
-          </div>
+          </div> */}
         </AutoplaySlider>
-      </Container> */}
+      </Container>
 
-      <Container className="pt-4 mb-4">
+      {/* <Container className="pt-4 mb-4">
         <h2> {t("Opinions")} </h2>
       </Container>
 
@@ -177,7 +220,7 @@ const Clients = () => {
             </Card.Body>
           </Card>
         </section>
-      </Container>
+      </Container> */}
     </section>
   );
 };
